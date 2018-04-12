@@ -1,9 +1,6 @@
 import Foundation
 import CommandLineKit
 import Rainbow
-import FindBeeKit
-import PathKit
-
 
 
 let cli = CommandLineKit.CommandLine()

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CommandLine::CommandLineKit"
-               BuildableName = "CommandLineKit.framework"
-               BlueprintName = "CommandLineKit"
+               BlueprintIdentifier = "FindBee::FindBee"
+               BuildableName = "FindBee"
+               BlueprintName = "FindBee"
                ReferencedContainer = "container:FindBee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FindBee::FindBee"
-               BuildableName = "FindBee"
-               BlueprintName = "FindBee"
+               BlueprintIdentifier = "CommandLine::CommandLineKit"
+               BuildableName = "CommandLineKit.framework"
+               BlueprintName = "CommandLineKit"
                ReferencedContainer = "container:FindBee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -101,9 +101,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CommandLine::CommandLineKit"
-            BuildableName = "CommandLineKit.framework"
-            BlueprintName = "CommandLineKit"
+            BlueprintIdentifier = "FindBee::FindBee"
+            BuildableName = "FindBee"
+            BlueprintName = "FindBee"
             ReferencedContainer = "container:FindBee.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

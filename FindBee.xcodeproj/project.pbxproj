@@ -54,49 +54,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		353C71F9207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F210207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CommandLine::CommandLineKit";
 			remoteInfo = CommandLineKit;
 		};
-		353C71FA207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F211207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "FindBee::FindBeeKit";
 			remoteInfo = FindBeeKit;
 		};
-		353C71FB207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F212207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		353C71FC207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F213207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Rainbow::Rainbow";
 			remoteInfo = Rainbow;
 		};
-		353C71FD207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F214207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		353C71FE207EFD8C0082D683 /* PBXContainerItemProxy */ = {
+		3508F215207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Rainbow::Rainbow";
 			remoteInfo = Rainbow;
 		};
-		353C71FF207EFD8D0082D683 /* PBXContainerItemProxy */ = {
+		3508F216207F00DE004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -264,10 +264,10 @@
 		OBJ_39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */,
+				"FindBee::FindBee::Product" /* FindBee */,
 				"PathKit::PathKit::Product" /* PathKit.framework */,
 				"Rainbow::Rainbow::Product" /* Rainbow.framework */,
-				"FindBee::FindBee::Product" /* FindBee */,
+				"CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */,
 				"FindBee::FindBeeKit::Product" /* FindBeeKit.framework */,
 			);
 			name = Products;
@@ -576,37 +576,37 @@
 		OBJ_49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CommandLine::CommandLineKit" /* CommandLineKit */;
-			targetProxy = 353C71FF207EFD8D0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F216207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CommandLine::CommandLineKit" /* CommandLineKit */;
-			targetProxy = 353C71F9207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F210207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "FindBee::FindBeeKit" /* FindBeeKit */;
-			targetProxy = 353C71FA207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F211207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 353C71FD207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F214207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Rainbow::Rainbow" /* Rainbow */;
-			targetProxy = 353C71FE207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F215207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 353C71FB207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F212207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Rainbow::Rainbow" /* Rainbow */;
-			targetProxy = 353C71FC207EFD8C0082D683 /* PBXContainerItemProxy */;
+			targetProxy = 3508F213207F00DE004EF760 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

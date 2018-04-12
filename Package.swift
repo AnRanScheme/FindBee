@@ -15,12 +15,7 @@ let package = Package(
         .package(url: "https://github.com/kylef/PathKit.git", from: "0.9.0")
     ],
     targets: [
-        .target(name: "FindBeeKit",
-                dependencies: ["Rainbow", "PathKit"]),
-        .target(
-            name: "FindBee",
-            dependencies: ["FindBeeKit", "CommandLine"]),
-        
-        
+        .target(name: "FindBeeKit", dependencies: ["Rainbow", "PathKit"]),
+        .target(name: "FindBee", dependencies: ["FindBeeKit", "CommandLine"]),
         ]
 )
