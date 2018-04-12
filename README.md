@@ -1,2 +1,3 @@
 # FindBee
-图片查找命令行工具
+
+A description of this package.
