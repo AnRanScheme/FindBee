@@ -17,5 +17,6 @@ let package = Package(
     targets: [
         .target(name: "FindBeeKit", dependencies: ["Rainbow", "PathKit"]),
         .target(name: "FindBee", dependencies: ["FindBeeKit", "CommandLine"]),
+        .testTarget(name: "FindBeeKitTests", dependencies: ["FindBeeKit", "Spectre"], exclude: ["Tests/Fixtures"]),    
         ]
 )

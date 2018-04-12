@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FindBee::FindBee"
-               BuildableName = "FindBee"
-               BlueprintName = "FindBee"
+               BlueprintIdentifier = "FindBee::FindBeeKit"
+               BuildableName = "FindBeeKit.framework"
+               BlueprintName = "FindBeeKit"
                ReferencedContainer = "container:FindBee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PathKit::PathKit"
-               BuildableName = "PathKit.framework"
-               BlueprintName = "PathKit"
+               BlueprintIdentifier = "FindBee::FindBee"
+               BuildableName = "FindBee"
+               BlueprintName = "FindBee"
                ReferencedContainer = "container:FindBee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,6 +56,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PathKit::PathKit"
+               BuildableName = "PathKit.framework"
+               BlueprintName = "PathKit"
+               ReferencedContainer = "container:FindBee.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "CommandLine::CommandLineKit"
                BuildableName = "CommandLineKit.framework"
                BlueprintName = "CommandLineKit"
@@ -70,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FindBee::FindBeeKit"
-               BuildableName = "FindBeeKit.framework"
-               BlueprintName = "FindBeeKit"
+               BlueprintIdentifier = "Spectre::Spectre"
+               BuildableName = "Spectre.framework"
+               BlueprintName = "Spectre"
                ReferencedContainer = "container:FindBee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,6 +98,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FindBee::FindBeeKitTests"
+               BuildableName = "FindBeeKitTests.xctest"
+               BlueprintName = "FindBeeKitTests"
+               ReferencedContainer = "container:FindBee.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -101,9 +125,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FindBee::FindBee"
-            BuildableName = "FindBee"
-            BlueprintName = "FindBee"
+            BlueprintIdentifier = "FindBee::FindBeeKit"
+            BuildableName = "FindBeeKit.framework"
+            BlueprintName = "FindBeeKit"
             ReferencedContainer = "container:FindBee.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

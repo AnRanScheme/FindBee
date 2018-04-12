@@ -7,6 +7,8 @@
 
 import Foundation
 
+// 面向协议编程
+
 protocol FileSearchRule {
     func search(in cotnent: String) -> Set<String>
 }

@@ -8,6 +8,7 @@
 import Foundation
 import PathKit
 
+/// 调用系统的命令行文件进行路径下文件遍历
 class ExtensionFindProcess: NSObject {
     
     let p: Process
