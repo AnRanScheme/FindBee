@@ -9,22 +9,22 @@
 /* Begin PBXAggregateTarget section */
 		"CommandLine::CommandLine::ProductTarget" /* CommandLine */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_61 /* Build configuration list for PBXAggregateTarget "CommandLine" */;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXAggregateTarget "CommandLine" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_64 /* PBXTargetDependency */,
+				OBJ_65 /* PBXTargetDependency */,
 			);
 			name = CommandLine;
 			productName = CommandLine;
 		};
 		"FindBee::FindBeePackageTests::ProductTarget" /* FindBeePackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_134 /* Build configuration list for PBXAggregateTarget "FindBeePackageTests" */;
+			buildConfigurationList = OBJ_136 /* Build configuration list for PBXAggregateTarget "FindBeePackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_137 /* PBXTargetDependency */,
+				OBJ_139 /* PBXTargetDependency */,
 			);
 			name = FindBeePackageTests;
 			productName = FindBeePackageTests;
@@ -32,131 +32,132 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_102 /* ExtensionFindProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ExtensionFindProcess.swift */; };
-		OBJ_103 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Extensions.swift */; };
-		OBJ_104 /* FileSearchRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FileSearchRule.swift */; };
-		OBJ_105 /* FindBee.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* FindBee.swift */; };
-		OBJ_107 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_108 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
-		OBJ_116 /* FindBeeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* FindBeeKitTests.swift */; };
-		OBJ_118 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
-		OBJ_119 /* FindBeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FindBee::FindBeeKit::Product" /* FindBeeKit.framework */; };
-		OBJ_120 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_121 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
-		OBJ_132 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_142 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* PathKit.swift */; };
-		OBJ_149 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Package.swift */; };
-		OBJ_154 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* BackgroundColor.swift */; };
-		OBJ_155 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* CodesParser.swift */; };
-		OBJ_156 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Color.swift */; };
-		OBJ_157 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* ControlCode.swift */; };
-		OBJ_158 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ModesExtractor.swift */; };
-		OBJ_159 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* OutputTarget.swift */; };
-		OBJ_160 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Rainbow.swift */; };
-		OBJ_161 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* String+Rainbow.swift */; };
-		OBJ_162 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* StringGenerator.swift */; };
-		OBJ_163 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Style.swift */; };
-		OBJ_164 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* XcodeColorsSupport.swift */; };
-		OBJ_171 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Package.swift */; };
-		OBJ_176 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Case.swift */; };
-		OBJ_177 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Context.swift */; };
-		OBJ_178 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Expectation.swift */; };
-		OBJ_179 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Failure.swift */; };
-		OBJ_180 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Global.swift */; };
-		OBJ_181 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* GlobalContext.swift */; };
-		OBJ_182 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Reporter.swift */; };
-		OBJ_183 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Reporters.swift */; };
-		OBJ_190 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Package.swift */; };
-		OBJ_70 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CommandLine.swift */; };
-		OBJ_71 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Option.swift */; };
-		OBJ_72 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* StringExtensions.swift */; };
-		OBJ_79 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Package.swift */; };
-		OBJ_85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_87 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */; };
-		OBJ_88 /* FindBeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FindBee::FindBeeKit::Product" /* FindBeeKit.framework */; };
-		OBJ_89 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_90 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
+		OBJ_104 /* ExtensionFindProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ExtensionFindProcess.swift */; };
+		OBJ_105 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Extensions.swift */; };
+		OBJ_106 /* FileSearchRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* FileSearchRule.swift */; };
+		OBJ_107 /* FindBee.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* FindBee.swift */; };
+		OBJ_109 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_110 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
+		OBJ_118 /* FindBeeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* FindBeeKitTests.swift */; };
+		OBJ_120 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
+		OBJ_121 /* FindBeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FindBee::FindBeeKit::Product" /* FindBeeKit.framework */; };
+		OBJ_122 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_123 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
+		OBJ_134 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_144 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* PathKit.swift */; };
+		OBJ_151 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Package.swift */; };
+		OBJ_156 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* BackgroundColor.swift */; };
+		OBJ_157 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* CodesParser.swift */; };
+		OBJ_158 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Color.swift */; };
+		OBJ_159 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ControlCode.swift */; };
+		OBJ_160 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ModesExtractor.swift */; };
+		OBJ_161 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* OutputTarget.swift */; };
+		OBJ_162 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Rainbow.swift */; };
+		OBJ_163 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* String+Rainbow.swift */; };
+		OBJ_164 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* StringGenerator.swift */; };
+		OBJ_165 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Style.swift */; };
+		OBJ_166 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* XcodeColorsSupport.swift */; };
+		OBJ_173 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Package.swift */; };
+		OBJ_178 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Case.swift */; };
+		OBJ_179 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Context.swift */; };
+		OBJ_180 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Expectation.swift */; };
+		OBJ_181 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Failure.swift */; };
+		OBJ_182 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Global.swift */; };
+		OBJ_183 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* GlobalContext.swift */; };
+		OBJ_184 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Reporter.swift */; };
+		OBJ_185 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Reporters.swift */; };
+		OBJ_192 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Package.swift */; };
+		OBJ_71 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* CommandLine.swift */; };
+		OBJ_72 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Option.swift */; };
+		OBJ_73 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* StringExtensions.swift */; };
+		OBJ_80 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Package.swift */; };
+		OBJ_86 /* CommandPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CommandPrompt.swift */; };
+		OBJ_87 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_89 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */; };
+		OBJ_90 /* FindBeeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FindBee::FindBeeKit::Product" /* FindBeeKit.framework */; };
+		OBJ_91 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_92 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3508F250207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26A20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		3508F251207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26B20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Rainbow::Rainbow";
 			remoteInfo = Rainbow;
 		};
-		3508F252207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26C20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CommandLine::CommandLineKit";
 			remoteInfo = CommandLineKit;
 		};
-		3508F253207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26D20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "FindBee::FindBeeKit";
 			remoteInfo = FindBeeKit;
 		};
-		3508F254207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26E20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		3508F255207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F26F20805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Rainbow::Rainbow";
 			remoteInfo = Rainbow;
 		};
-		3508F256207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F27020805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Spectre::Spectre";
 			remoteInfo = Spectre;
 		};
-		3508F257207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F27120805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "FindBee::FindBeeKit";
 			remoteInfo = FindBeeKit;
 		};
-		3508F258207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F27220805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		3508F259207F08C0004EF760 /* PBXContainerItemProxy */ = {
+		3508F27320805F95004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Rainbow::Rainbow";
 			remoteInfo = Rainbow;
 		};
-		3508F25A207F08C1004EF760 /* PBXContainerItemProxy */ = {
+		3508F27420805F96004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CommandLine::CommandLineKit";
 			remoteInfo = CommandLineKit;
 		};
-		3508F25B207F08C1004EF760 /* PBXContainerItemProxy */ = {
+		3508F27520805F96004EF760 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -170,218 +171,219 @@
 		"FindBee::FindBee::Product" /* FindBee */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBee; sourceTree = BUILT_PRODUCTS_DIR; };
 		"FindBee::FindBeeKit::Product" /* FindBeeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FindBeeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"FindBee::FindBeeKitTests::Product" /* FindBeeKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FindBeeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_11 /* ExtensionFindProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFindProcess.swift; sourceTree = "<group>"; };
-		OBJ_12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		OBJ_13 /* FileSearchRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSearchRule.swift; sourceTree = "<group>"; };
-		OBJ_14 /* FindBee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBee.swift; sourceTree = "<group>"; };
-		OBJ_17 /* FindBeeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBeeKitTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/PathKit.git--1865447967743163058/Package.swift"; sourceTree = "<group>"; };
-		OBJ_21 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		OBJ_26 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
-		OBJ_27 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		OBJ_29 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
-		OBJ_30 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/Spectre.git--7655155069707042687/Package.swift"; sourceTree = "<group>"; };
-		OBJ_35 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
-		OBJ_37 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		OBJ_38 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/CommandLine.git--2975222262383774978/Package.swift"; sourceTree = "<group>"; };
-		OBJ_40 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/Rainbow.git-2499542794955463186/Package.swift"; sourceTree = "<group>"; };
-		OBJ_41 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
-		OBJ_42 /* CodesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
-		OBJ_43 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		OBJ_44 /* ControlCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
-		OBJ_45 /* ModesExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
-		OBJ_46 /* OutputTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
-		OBJ_47 /* Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
-		OBJ_48 /* String+Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
-		OBJ_49 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
-		OBJ_50 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		OBJ_51 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
+		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ExtensionFindProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFindProcess.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		OBJ_14 /* FileSearchRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSearchRule.swift; sourceTree = "<group>"; };
+		OBJ_15 /* FindBee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBee.swift; sourceTree = "<group>"; };
+		OBJ_18 /* FindBeeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBeeKitTests.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/PathKit.git--1865447967743163058/Package.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		OBJ_30 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/Spectre.git--7655155069707042687/Package.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		OBJ_37 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_38 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/CommandLine.git--2975222262383774978/Package.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anran/Desktop/anran/FindBee/.build/checkouts/Rainbow.git-2499542794955463186/Package.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		OBJ_43 /* CodesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		OBJ_45 /* ControlCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
+		OBJ_46 /* ModesExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
+		OBJ_47 /* OutputTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		OBJ_49 /* String+Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		OBJ_52 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CommandPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPrompt.swift; sourceTree = "<group>"; };
 		"PathKit::PathKit::Product" /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Rainbow::Rainbow::Product" /* Rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Spectre::Spectre::Product" /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_106 /* Frameworks */ = {
+		OBJ_108 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_107 /* PathKit.framework in Frameworks */,
-				OBJ_108 /* Rainbow.framework in Frameworks */,
+				OBJ_109 /* PathKit.framework in Frameworks */,
+				OBJ_110 /* Rainbow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_117 /* Frameworks */ = {
+		OBJ_119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_118 /* Spectre.framework in Frameworks */,
-				OBJ_119 /* FindBeeKit.framework in Frameworks */,
-				OBJ_120 /* PathKit.framework in Frameworks */,
-				OBJ_121 /* Rainbow.framework in Frameworks */,
+				OBJ_120 /* Spectre.framework in Frameworks */,
+				OBJ_121 /* FindBeeKit.framework in Frameworks */,
+				OBJ_122 /* PathKit.framework in Frameworks */,
+				OBJ_123 /* Rainbow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_143 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_165 /* Frameworks */ = {
+		OBJ_145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_184 /* Frameworks */ = {
+		OBJ_167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_73 /* Frameworks */ = {
+		OBJ_186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_86 /* Frameworks */ = {
+		OBJ_74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_87 /* CommandLineKit.framework in Frameworks */,
-				OBJ_88 /* FindBeeKit.framework in Frameworks */,
-				OBJ_89 /* PathKit.framework in Frameworks */,
-				OBJ_90 /* Rainbow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_89 /* CommandLineKit.framework in Frameworks */,
+				OBJ_90 /* FindBeeKit.framework in Frameworks */,
+				OBJ_91 /* PathKit.framework in Frameworks */,
+				OBJ_92 /* Rainbow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* FindBeeKit */ = {
+		OBJ_11 /* FindBeeKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* ExtensionFindProcess.swift */,
-				OBJ_12 /* Extensions.swift */,
-				OBJ_13 /* FileSearchRule.swift */,
-				OBJ_14 /* FindBee.swift */,
+				OBJ_12 /* ExtensionFindProcess.swift */,
+				OBJ_13 /* Extensions.swift */,
+				OBJ_14 /* FileSearchRule.swift */,
+				OBJ_15 /* FindBee.swift */,
 			);
 			name = FindBeeKit;
 			path = Sources/FindBeeKit;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_15 /* Tests */ = {
+		OBJ_16 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* FindBeeKitTests */,
+				OBJ_17 /* FindBeeKitTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_16 /* FindBeeKitTests */ = {
+		OBJ_17 /* FindBeeKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* FindBeeKitTests.swift */,
+				OBJ_18 /* FindBeeKitTests.swift */,
 			);
 			name = FindBeeKitTests;
 			path = Tests/FindBeeKitTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_18 /* Dependencies */ = {
+		OBJ_19 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* PathKit 0.9.1 */,
-				OBJ_22 /* Spectre 0.8.0 */,
-				OBJ_33 /* CommandLine 3.0.0-pre1 */,
-				OBJ_39 /* Rainbow 3.1.1 */,
+				OBJ_20 /* PathKit 0.9.1 */,
+				OBJ_23 /* Spectre 0.8.0 */,
+				OBJ_34 /* CommandLine 3.0.0-pre1 */,
+				OBJ_40 /* Rainbow 3.1.1 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_19 /* PathKit 0.9.1 */ = {
+		OBJ_20 /* PathKit 0.9.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_20 /* Package.swift */,
-				OBJ_21 /* PathKit.swift */,
+				OBJ_21 /* Package.swift */,
+				OBJ_22 /* PathKit.swift */,
 			);
 			name = "PathKit 0.9.1";
 			path = ".build/checkouts/PathKit.git--1865447967743163058/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_22 /* Spectre 0.8.0 */ = {
+		OBJ_23 /* Spectre 0.8.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_23 /* Spectre */,
-				OBJ_32 /* Package.swift */,
+				OBJ_24 /* Spectre */,
+				OBJ_33 /* Package.swift */,
 			);
 			name = "Spectre 0.8.0";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_23 /* Spectre */ = {
+		OBJ_24 /* Spectre */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_24 /* Case.swift */,
-				OBJ_25 /* Context.swift */,
-				OBJ_26 /* Expectation.swift */,
-				OBJ_27 /* Failure.swift */,
-				OBJ_28 /* Global.swift */,
-				OBJ_29 /* GlobalContext.swift */,
-				OBJ_30 /* Reporter.swift */,
-				OBJ_31 /* Reporters.swift */,
+				OBJ_25 /* Case.swift */,
+				OBJ_26 /* Context.swift */,
+				OBJ_27 /* Expectation.swift */,
+				OBJ_28 /* Failure.swift */,
+				OBJ_29 /* Global.swift */,
+				OBJ_30 /* GlobalContext.swift */,
+				OBJ_31 /* Reporter.swift */,
+				OBJ_32 /* Reporters.swift */,
 			);
 			name = Spectre;
 			path = ".build/checkouts/Spectre.git--7655155069707042687/Sources/Spectre";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_33 /* CommandLine 3.0.0-pre1 */ = {
+		OBJ_34 /* CommandLine 3.0.0-pre1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_34 /* CommandLineKit */,
-				OBJ_38 /* Package.swift */,
+				OBJ_35 /* CommandLineKit */,
+				OBJ_39 /* Package.swift */,
 			);
 			name = "CommandLine 3.0.0-pre1";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_34 /* CommandLineKit */ = {
+		OBJ_35 /* CommandLineKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_35 /* CommandLine.swift */,
-				OBJ_36 /* Option.swift */,
-				OBJ_37 /* StringExtensions.swift */,
+				OBJ_36 /* CommandLine.swift */,
+				OBJ_37 /* Option.swift */,
+				OBJ_38 /* StringExtensions.swift */,
 			);
 			name = CommandLineKit;
 			path = ".build/checkouts/CommandLine.git--2975222262383774978/CommandLineKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_39 /* Rainbow 3.1.1 */ = {
+		OBJ_40 /* Rainbow 3.1.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_40 /* Package.swift */,
-				OBJ_41 /* BackgroundColor.swift */,
-				OBJ_42 /* CodesParser.swift */,
-				OBJ_43 /* Color.swift */,
-				OBJ_44 /* ControlCode.swift */,
-				OBJ_45 /* ModesExtractor.swift */,
-				OBJ_46 /* OutputTarget.swift */,
-				OBJ_47 /* Rainbow.swift */,
-				OBJ_48 /* String+Rainbow.swift */,
-				OBJ_49 /* StringGenerator.swift */,
-				OBJ_50 /* Style.swift */,
-				OBJ_51 /* XcodeColorsSupport.swift */,
+				OBJ_41 /* Package.swift */,
+				OBJ_42 /* BackgroundColor.swift */,
+				OBJ_43 /* CodesParser.swift */,
+				OBJ_44 /* Color.swift */,
+				OBJ_45 /* ControlCode.swift */,
+				OBJ_46 /* ModesExtractor.swift */,
+				OBJ_47 /* OutputTarget.swift */,
+				OBJ_48 /* Rainbow.swift */,
+				OBJ_49 /* String+Rainbow.swift */,
+				OBJ_50 /* StringGenerator.swift */,
+				OBJ_51 /* Style.swift */,
+				OBJ_52 /* XcodeColorsSupport.swift */,
 			);
 			name = "Rainbow 3.1.1";
 			path = ".build/checkouts/Rainbow.git-2499542794955463186/Sources";
@@ -392,23 +394,23 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_15 /* Tests */,
-				OBJ_18 /* Dependencies */,
-				OBJ_52 /* Products */,
+				OBJ_16 /* Tests */,
+				OBJ_19 /* Dependencies */,
+				OBJ_53 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_52 /* Products */ = {
+		OBJ_53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"FindBee::FindBeeKit::Product" /* FindBeeKit.framework */,
-				"FindBee::FindBee::Product" /* FindBee */,
 				"Rainbow::Rainbow::Product" /* Rainbow.framework */,
-				"PathKit::PathKit::Product" /* PathKit.framework */,
-				"CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */,
-				"FindBee::FindBeeKitTests::Product" /* FindBeeKitTests.xctest */,
 				"Spectre::Spectre::Product" /* Spectre.framework */,
+				"FindBee::FindBee::Product" /* FindBee */,
+				"PathKit::PathKit::Product" /* PathKit.framework */,
+				"FindBee::FindBeeKitTests::Product" /* FindBeeKitTests.xctest */,
+				"CommandLine::CommandLineKit::Product" /* CommandLineKit.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -417,7 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* FindBee */,
-				OBJ_10 /* FindBeeKit */,
+				OBJ_11 /* FindBeeKit */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -425,7 +427,8 @@
 		OBJ_8 /* FindBee */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* main.swift */,
+				OBJ_9 /* CommandPrompt.swift */,
+				OBJ_10 /* main.swift */,
 			);
 			name = FindBee;
 			path = Sources/FindBee;
@@ -436,10 +439,10 @@
 /* Begin PBXNativeTarget section */
 		"CommandLine::CommandLineKit" /* CommandLineKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_66 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
+			buildConfigurationList = OBJ_67 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
 			buildPhases = (
-				OBJ_69 /* Sources */,
-				OBJ_73 /* Frameworks */,
+				OBJ_70 /* Sources */,
+				OBJ_74 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -452,9 +455,9 @@
 		};
 		"CommandLine::SwiftPMPackageDescription" /* CommandLinePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */;
 			buildPhases = (
-				OBJ_78 /* Sources */,
+				OBJ_79 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -466,18 +469,18 @@
 		};
 		"FindBee::FindBee" /* FindBee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "FindBee" */;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "FindBee" */;
 			buildPhases = (
-				OBJ_84 /* Sources */,
-				OBJ_86 /* Frameworks */,
+				OBJ_85 /* Sources */,
+				OBJ_88 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_91 /* PBXTargetDependency */,
-				OBJ_92 /* PBXTargetDependency */,
+				OBJ_93 /* PBXTargetDependency */,
 				OBJ_94 /* PBXTargetDependency */,
 				OBJ_96 /* PBXTargetDependency */,
+				OBJ_98 /* PBXTargetDependency */,
 			);
 			name = FindBee;
 			productName = FindBee;
@@ -486,16 +489,16 @@
 		};
 		"FindBee::FindBeeKit" /* FindBeeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "FindBeeKit" */;
+			buildConfigurationList = OBJ_100 /* Build configuration list for PBXNativeTarget "FindBeeKit" */;
 			buildPhases = (
-				OBJ_101 /* Sources */,
-				OBJ_106 /* Frameworks */,
+				OBJ_103 /* Sources */,
+				OBJ_108 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_109 /* PBXTargetDependency */,
-				OBJ_110 /* PBXTargetDependency */,
+				OBJ_111 /* PBXTargetDependency */,
+				OBJ_112 /* PBXTargetDependency */,
 			);
 			name = FindBeeKit;
 			productName = FindBeeKit;
@@ -504,18 +507,18 @@
 		};
 		"FindBee::FindBeeKitTests" /* FindBeeKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_112 /* Build configuration list for PBXNativeTarget "FindBeeKitTests" */;
+			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "FindBeeKitTests" */;
 			buildPhases = (
-				OBJ_115 /* Sources */,
-				OBJ_117 /* Frameworks */,
+				OBJ_117 /* Sources */,
+				OBJ_119 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_122 /* PBXTargetDependency */,
 				OBJ_124 /* PBXTargetDependency */,
-				OBJ_125 /* PBXTargetDependency */,
 				OBJ_126 /* PBXTargetDependency */,
+				OBJ_127 /* PBXTargetDependency */,
+				OBJ_128 /* PBXTargetDependency */,
 			);
 			name = FindBeeKitTests;
 			productName = FindBeeKitTests;
@@ -524,9 +527,9 @@
 		};
 		"FindBee::SwiftPMPackageDescription" /* FindBeePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_128 /* Build configuration list for PBXNativeTarget "FindBeePackageDescription" */;
+			buildConfigurationList = OBJ_130 /* Build configuration list for PBXNativeTarget "FindBeePackageDescription" */;
 			buildPhases = (
-				OBJ_131 /* Sources */,
+				OBJ_133 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -538,10 +541,10 @@
 		};
 		"PathKit::PathKit" /* PathKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_138 /* Build configuration list for PBXNativeTarget "PathKit" */;
+			buildConfigurationList = OBJ_140 /* Build configuration list for PBXNativeTarget "PathKit" */;
 			buildPhases = (
-				OBJ_141 /* Sources */,
-				OBJ_143 /* Frameworks */,
+				OBJ_143 /* Sources */,
+				OBJ_145 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -554,9 +557,9 @@
 		};
 		"PathKit::SwiftPMPackageDescription" /* PathKitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_145 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */;
+			buildConfigurationList = OBJ_147 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */;
 			buildPhases = (
-				OBJ_148 /* Sources */,
+				OBJ_150 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -568,10 +571,10 @@
 		};
 		"Rainbow::Rainbow" /* Rainbow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_150 /* Build configuration list for PBXNativeTarget "Rainbow" */;
+			buildConfigurationList = OBJ_152 /* Build configuration list for PBXNativeTarget "Rainbow" */;
 			buildPhases = (
-				OBJ_153 /* Sources */,
-				OBJ_165 /* Frameworks */,
+				OBJ_155 /* Sources */,
+				OBJ_167 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -584,9 +587,9 @@
 		};
 		"Rainbow::SwiftPMPackageDescription" /* RainbowPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_167 /* Build configuration list for PBXNativeTarget "RainbowPackageDescription" */;
+			buildConfigurationList = OBJ_169 /* Build configuration list for PBXNativeTarget "RainbowPackageDescription" */;
 			buildPhases = (
-				OBJ_170 /* Sources */,
+				OBJ_172 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -598,10 +601,10 @@
 		};
 		"Spectre::Spectre" /* Spectre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_172 /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildConfigurationList = OBJ_174 /* Build configuration list for PBXNativeTarget "Spectre" */;
 			buildPhases = (
-				OBJ_175 /* Sources */,
-				OBJ_184 /* Frameworks */,
+				OBJ_177 /* Sources */,
+				OBJ_186 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -614,9 +617,9 @@
 		};
 		"Spectre::SwiftPMPackageDescription" /* SpectrePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_186 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */;
+			buildConfigurationList = OBJ_188 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */;
 			buildPhases = (
-				OBJ_189 /* Sources */,
+				OBJ_191 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -642,7 +645,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_52 /* Products */;
+			productRefGroup = OBJ_53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -665,191 +668,215 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_101 /* Sources */ = {
+		OBJ_103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_102 /* ExtensionFindProcess.swift in Sources */,
-				OBJ_103 /* Extensions.swift in Sources */,
-				OBJ_104 /* FileSearchRule.swift in Sources */,
-				OBJ_105 /* FindBee.swift in Sources */,
+				OBJ_104 /* ExtensionFindProcess.swift in Sources */,
+				OBJ_105 /* Extensions.swift in Sources */,
+				OBJ_106 /* FileSearchRule.swift in Sources */,
+				OBJ_107 /* FindBee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_115 /* Sources */ = {
+		OBJ_117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_116 /* FindBeeKitTests.swift in Sources */,
+				OBJ_118 /* FindBeeKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_131 /* Sources */ = {
+		OBJ_133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_132 /* Package.swift in Sources */,
+				OBJ_134 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_141 /* Sources */ = {
+		OBJ_143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_142 /* PathKit.swift in Sources */,
+				OBJ_144 /* PathKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_148 /* Sources */ = {
+		OBJ_150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_149 /* Package.swift in Sources */,
+				OBJ_151 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_153 /* Sources */ = {
+		OBJ_155 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_154 /* BackgroundColor.swift in Sources */,
-				OBJ_155 /* CodesParser.swift in Sources */,
-				OBJ_156 /* Color.swift in Sources */,
-				OBJ_157 /* ControlCode.swift in Sources */,
-				OBJ_158 /* ModesExtractor.swift in Sources */,
-				OBJ_159 /* OutputTarget.swift in Sources */,
-				OBJ_160 /* Rainbow.swift in Sources */,
-				OBJ_161 /* String+Rainbow.swift in Sources */,
-				OBJ_162 /* StringGenerator.swift in Sources */,
-				OBJ_163 /* Style.swift in Sources */,
-				OBJ_164 /* XcodeColorsSupport.swift in Sources */,
+				OBJ_156 /* BackgroundColor.swift in Sources */,
+				OBJ_157 /* CodesParser.swift in Sources */,
+				OBJ_158 /* Color.swift in Sources */,
+				OBJ_159 /* ControlCode.swift in Sources */,
+				OBJ_160 /* ModesExtractor.swift in Sources */,
+				OBJ_161 /* OutputTarget.swift in Sources */,
+				OBJ_162 /* Rainbow.swift in Sources */,
+				OBJ_163 /* String+Rainbow.swift in Sources */,
+				OBJ_164 /* StringGenerator.swift in Sources */,
+				OBJ_165 /* Style.swift in Sources */,
+				OBJ_166 /* XcodeColorsSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_170 /* Sources */ = {
+		OBJ_172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_171 /* Package.swift in Sources */,
+				OBJ_173 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_175 /* Sources */ = {
+		OBJ_177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_176 /* Case.swift in Sources */,
-				OBJ_177 /* Context.swift in Sources */,
-				OBJ_178 /* Expectation.swift in Sources */,
-				OBJ_179 /* Failure.swift in Sources */,
-				OBJ_180 /* Global.swift in Sources */,
-				OBJ_181 /* GlobalContext.swift in Sources */,
-				OBJ_182 /* Reporter.swift in Sources */,
-				OBJ_183 /* Reporters.swift in Sources */,
+				OBJ_178 /* Case.swift in Sources */,
+				OBJ_179 /* Context.swift in Sources */,
+				OBJ_180 /* Expectation.swift in Sources */,
+				OBJ_181 /* Failure.swift in Sources */,
+				OBJ_182 /* Global.swift in Sources */,
+				OBJ_183 /* GlobalContext.swift in Sources */,
+				OBJ_184 /* Reporter.swift in Sources */,
+				OBJ_185 /* Reporters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_189 /* Sources */ = {
+		OBJ_191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_190 /* Package.swift in Sources */,
+				OBJ_192 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_69 /* Sources */ = {
+		OBJ_70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_70 /* CommandLine.swift in Sources */,
-				OBJ_71 /* Option.swift in Sources */,
-				OBJ_72 /* StringExtensions.swift in Sources */,
+				OBJ_71 /* CommandLine.swift in Sources */,
+				OBJ_72 /* Option.swift in Sources */,
+				OBJ_73 /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_78 /* Sources */ = {
+		OBJ_79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_79 /* Package.swift in Sources */,
+				OBJ_80 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_84 /* Sources */ = {
+		OBJ_85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_85 /* main.swift in Sources */,
+				OBJ_86 /* CommandPrompt.swift in Sources */,
+				OBJ_87 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_109 /* PBXTargetDependency */ = {
+		OBJ_111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 3508F250207F08C0004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F26A20805F95004EF760 /* PBXContainerItemProxy */;
 		};
-		OBJ_110 /* PBXTargetDependency */ = {
+		OBJ_112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Rainbow::Rainbow" /* Rainbow */;
-			targetProxy = 3508F251207F08C0004EF760 /* PBXContainerItemProxy */;
-		};
-		OBJ_122 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Spectre::Spectre" /* Spectre */;
-			targetProxy = 3508F256207F08C0004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F26B20805F95004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "FindBee::FindBeeKit" /* FindBeeKit */;
-			targetProxy = 3508F257207F08C0004EF760 /* PBXContainerItemProxy */;
-		};
-		OBJ_125 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 3508F258207F08C0004EF760 /* PBXContainerItemProxy */;
+			target = "Spectre::Spectre" /* Spectre */;
+			targetProxy = 3508F27020805F95004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Rainbow::Rainbow" /* Rainbow */;
-			targetProxy = 3508F259207F08C0004EF760 /* PBXContainerItemProxy */;
+			target = "FindBee::FindBeeKit" /* FindBeeKit */;
+			targetProxy = 3508F27120805F95004EF760 /* PBXContainerItemProxy */;
 		};
-		OBJ_137 /* PBXTargetDependency */ = {
+		OBJ_127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PathKit::PathKit" /* PathKit */;
+			targetProxy = 3508F27220805F95004EF760 /* PBXContainerItemProxy */;
+		};
+		OBJ_128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Rainbow::Rainbow" /* Rainbow */;
+			targetProxy = 3508F27320805F95004EF760 /* PBXContainerItemProxy */;
+		};
+		OBJ_139 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "FindBee::FindBeeKitTests" /* FindBeeKitTests */;
-			targetProxy = 3508F25B207F08C1004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F27520805F96004EF760 /* PBXContainerItemProxy */;
 		};
-		OBJ_64 /* PBXTargetDependency */ = {
+		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CommandLine::CommandLineKit" /* CommandLineKit */;
-			targetProxy = 3508F25A207F08C1004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F27420805F96004EF760 /* PBXContainerItemProxy */;
 		};
-		OBJ_91 /* PBXTargetDependency */ = {
+		OBJ_93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CommandLine::CommandLineKit" /* CommandLineKit */;
-			targetProxy = 3508F252207F08C0004EF760 /* PBXContainerItemProxy */;
-		};
-		OBJ_92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "FindBee::FindBeeKit" /* FindBeeKit */;
-			targetProxy = 3508F253207F08C0004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F26C20805F95004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 3508F254207F08C0004EF760 /* PBXContainerItemProxy */;
+			target = "FindBee::FindBeeKit" /* FindBeeKit */;
+			targetProxy = 3508F26D20805F95004EF760 /* PBXContainerItemProxy */;
 		};
 		OBJ_96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "PathKit::PathKit" /* PathKit */;
+			targetProxy = 3508F26E20805F95004EF760 /* PBXContainerItemProxy */;
+		};
+		OBJ_98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = "Rainbow::Rainbow" /* Rainbow */;
-			targetProxy = 3508F255207F08C0004EF760 /* PBXContainerItemProxy */;
+			targetProxy = 3508F26F20805F95004EF760 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_100 /* Release */ = {
+		OBJ_101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FindBee.xcodeproj/FindBeeKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FindBeeKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = FindBeeKit;
+			};
+			name = Debug;
+		};
+		OBJ_102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -872,7 +899,7 @@
 			};
 			name = Release;
 		};
-		OBJ_113 /* Debug */ = {
+		OBJ_115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -891,7 +918,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_114 /* Release */ = {
+		OBJ_116 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -910,7 +937,7 @@
 			};
 			name = Release;
 		};
-		OBJ_129 /* Debug */ = {
+		OBJ_131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -919,7 +946,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_130 /* Release */ = {
+		OBJ_132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -928,19 +955,19 @@
 			};
 			name = Release;
 		};
-		OBJ_135 /* Debug */ = {
+		OBJ_137 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_136 /* Release */ = {
+		OBJ_138 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_139 /* Debug */ = {
+		OBJ_141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -963,7 +990,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_140 /* Release */ = {
+		OBJ_142 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -986,7 +1013,7 @@
 			};
 			name = Release;
 		};
-		OBJ_146 /* Debug */ = {
+		OBJ_148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -995,7 +1022,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_147 /* Release */ = {
+		OBJ_149 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1004,7 +1031,7 @@
 			};
 			name = Release;
 		};
-		OBJ_151 /* Debug */ = {
+		OBJ_153 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1027,7 +1054,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_152 /* Release */ = {
+		OBJ_154 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1050,7 +1077,7 @@
 			};
 			name = Release;
 		};
-		OBJ_168 /* Debug */ = {
+		OBJ_170 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1059,7 +1086,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_169 /* Release */ = {
+		OBJ_171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1068,7 +1095,7 @@
 			};
 			name = Release;
 		};
-		OBJ_173 /* Debug */ = {
+		OBJ_175 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1091,7 +1118,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_174 /* Release */ = {
+		OBJ_176 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1114,7 +1141,7 @@
 			};
 			name = Release;
 		};
-		OBJ_187 /* Debug */ = {
+		OBJ_189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1123,7 +1150,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_188 /* Release */ = {
+		OBJ_190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1174,19 +1201,19 @@
 			};
 			name = Release;
 		};
-		OBJ_62 /* Debug */ = {
+		OBJ_63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_63 /* Release */ = {
+		OBJ_64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_67 /* Debug */ = {
+		OBJ_68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1209,7 +1236,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_68 /* Release */ = {
+		OBJ_69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1232,7 +1259,7 @@
 			};
 			name = Release;
 		};
-		OBJ_76 /* Debug */ = {
+		OBJ_77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1241,7 +1268,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_77 /* Release */ = {
+		OBJ_78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1250,7 +1277,7 @@
 			};
 			name = Release;
 		};
-		OBJ_82 /* Debug */ = {
+		OBJ_83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1270,7 +1297,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_83 /* Release */ = {
+		OBJ_84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1289,110 +1316,96 @@
 				TARGET_NAME = FindBee;
 			};
 			name = Release;
-		};
-		OBJ_99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = FindBee.xcodeproj/FindBeeKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = FindBeeKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = FindBeeKit;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_112 /* Build configuration list for PBXNativeTarget "FindBeeKitTests" */ = {
+		OBJ_100 /* Build configuration list for PBXNativeTarget "FindBeeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_113 /* Debug */,
-				OBJ_114 /* Release */,
+				OBJ_101 /* Debug */,
+				OBJ_102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_128 /* Build configuration list for PBXNativeTarget "FindBeePackageDescription" */ = {
+		OBJ_114 /* Build configuration list for PBXNativeTarget "FindBeeKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_129 /* Debug */,
-				OBJ_130 /* Release */,
+				OBJ_115 /* Debug */,
+				OBJ_116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_134 /* Build configuration list for PBXAggregateTarget "FindBeePackageTests" */ = {
+		OBJ_130 /* Build configuration list for PBXNativeTarget "FindBeePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_135 /* Debug */,
-				OBJ_136 /* Release */,
+				OBJ_131 /* Debug */,
+				OBJ_132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_138 /* Build configuration list for PBXNativeTarget "PathKit" */ = {
+		OBJ_136 /* Build configuration list for PBXAggregateTarget "FindBeePackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_139 /* Debug */,
-				OBJ_140 /* Release */,
+				OBJ_137 /* Debug */,
+				OBJ_138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_145 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */ = {
+		OBJ_140 /* Build configuration list for PBXNativeTarget "PathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_146 /* Debug */,
-				OBJ_147 /* Release */,
+				OBJ_141 /* Debug */,
+				OBJ_142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_150 /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
+		OBJ_147 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_151 /* Debug */,
-				OBJ_152 /* Release */,
+				OBJ_148 /* Debug */,
+				OBJ_149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_167 /* Build configuration list for PBXNativeTarget "RainbowPackageDescription" */ = {
+		OBJ_152 /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_168 /* Debug */,
-				OBJ_169 /* Release */,
+				OBJ_153 /* Debug */,
+				OBJ_154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_172 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+		OBJ_169 /* Build configuration list for PBXNativeTarget "RainbowPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_173 /* Debug */,
-				OBJ_174 /* Release */,
+				OBJ_170 /* Debug */,
+				OBJ_171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_186 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */ = {
+		OBJ_174 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_187 /* Debug */,
-				OBJ_188 /* Release */,
+				OBJ_175 /* Debug */,
+				OBJ_176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_188 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_189 /* Debug */,
+				OBJ_190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1406,47 +1419,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_61 /* Build configuration list for PBXAggregateTarget "CommandLine" */ = {
+		OBJ_62 /* Build configuration list for PBXAggregateTarget "CommandLine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_62 /* Debug */,
-				OBJ_63 /* Release */,
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_66 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
+		OBJ_67 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_67 /* Debug */,
-				OBJ_68 /* Release */,
+				OBJ_68 /* Debug */,
+				OBJ_69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_75 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */ = {
+		OBJ_76 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_76 /* Debug */,
-				OBJ_77 /* Release */,
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_81 /* Build configuration list for PBXNativeTarget "FindBee" */ = {
+		OBJ_82 /* Build configuration list for PBXNativeTarget "FindBee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_82 /* Debug */,
-				OBJ_83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_98 /* Build configuration list for PBXNativeTarget "FindBeeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_99 /* Debug */,
-				OBJ_100 /* Release */,
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
