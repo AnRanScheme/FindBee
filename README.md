@@ -7,7 +7,7 @@
 #### Compile from source
 
 ```bash
-> git clone https://github.com/onevcat/FengNiao.git
+> git clone https://github.com/AnRanScheme/FindBee
 > cd FengNiao
 > ./install.sh
 ```
