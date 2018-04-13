@@ -22,4 +22,4 @@
 如果你要查看详细的说明需要 FindBee --help
 
 
-郑重申明:这个命令行工具不是本人原创-----学习Swift用于命令工具  ---学习自大神 喵神(https://github.com/onevcat/FengNiao)
+郑重申明:这个命令行工具不是本人原创-----学习Swift用于命令工具  ---学习自大神 !喵神(https://github.com/onevcat/FengNiao)
